@@ -1,0 +1,35 @@
+.carousel-item:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+}
+
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+}
+
+p.conoce {
+  font-size: 0.8rem;
+}
+
+img[src="img/honolulu.jpg"] {
+  max-width: 100%;
+}
+
+.col float-end bg-dark {
+  max-width: 100%;
+}
+#botonenviar {
+  background-color: #96c93e;
+  border: 0ch;
+}
